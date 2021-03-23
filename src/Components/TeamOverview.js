@@ -5,7 +5,7 @@ const TeamOverview = ({teams}) => {
       <>
       <Search searchList={teams}/>
         {teams.map((team)=>(
-        <Team key={team.id} team={team}/>
+        <Team key={team.id} team={team} />
         ))} 
       </>
   )
