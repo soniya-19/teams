@@ -6,9 +6,11 @@ const Search = ({searchList}) => {
         console.log(searchList.filter(searchTerm));
     }
     return (
+        <>
         <input type='text' placeholder='search...' onChange={(Event)=>{
             filterRecords(Event.target.value);
         }} />
+        </>
         
     )
 }
